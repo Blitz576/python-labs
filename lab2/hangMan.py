@@ -36,6 +36,6 @@ for trie in range(tries) :
     print(f'You have {tries-(trie+1)} tries left')
     if word == guess:
         print('Congratulations! You Won')
-        break;
+        break
 else:
    print('Sorry you did not guess the word')
